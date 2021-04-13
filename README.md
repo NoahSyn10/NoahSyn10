@@ -1,6 +1,6 @@
 # Hi there! 👋
 
-## - 🔭 I’m currently working on ...
+## 🔭 I’m currently working on ...
 
 - [A VSCode extension that has improved my workflow in Compsci classes.](https://github.com/NoahSyn10/VSCode-PyDoctestBtn)
 
