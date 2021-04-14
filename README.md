@@ -1,3 +1,6 @@
+
+<img src="https://github.com/NoahSyn10/NoahSyn10/blob/main/github-metrics.svg" alt="Metrics">
+
 # Hi there! 👋
 
 ## 🔭 I’m currently working on ...
@@ -9,8 +12,6 @@
 - Python
 - TypeScript
 - Android Development
-
-<img src="https://github.com/NoahSyn10/NoahSyn10/blob/main/github-metrics.svg" alt="Metrics">
 
 <!--
 **NoahSyn10/NoahSyn10** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
