@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="309" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="343" class="">
     <defs>
         <style/>
     </defs>
@@ -1144,7 +1144,7 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="356.2990640902459" height="8" fill="orange"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="356.2990640902459" height="8" fill="#b07219"/>
                     <rect mask="url(#languages-bar)" x="356.2990640902459" y="0" width="101.42966442475357" height="8" fill="#2b7489"/>
                     <rect mask="url(#languages-bar)" x="457.7287285149995" y="0" width="2.2712714850005336" height="8" fill="#3572A5"/>
                 </svg>
@@ -1153,7 +1153,7 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="orange" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#b07219" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
                                 Java
                             </div>
@@ -1203,6 +1203,14 @@
                     </section>
                 </div>
             </section>
+            <footer>
+                <span>
+                    These metrics do not include all private contributions, timezone America/New_York
+                </span>
+                <span>
+                    Last updated Wed, 14 Apr 2021 17:48:27 GMT with lowlighter/metrics@3.6.0
+                </span>
+            </footer>
             <div id="metrics-end"></div>
         </div>
     </foreignObject>
