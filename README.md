@@ -1,3 +1,5 @@
+![Metrics](https://github.com/NoahSyn10/NoahSyn10/blob/main/github-metrics.svg)
+
 # Hi there! 👋
 
 ## 🔭 I’m currently working on ...
