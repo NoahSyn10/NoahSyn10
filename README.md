@@ -1,4 +1,4 @@
-<img align="center" src="https://github.com/NoahSyn10/NoahSyn10/blob/main/github-metrics.svg" alt="Metrics">
+<img src="https://github.com/NoahSyn10/NoahSyn10/blob/main/github-metrics.svg" alt="Metrics">
 
 # Hi there! 👋
 
