@@ -1,19 +1,24 @@
 name: Metrics
+
 on:
-  # Schedule updates (each hour)
   schedule: [{cron: "15 0 * * *"}]
-  # Lines below let you run workflow manually and on each commit (optional)
-  workflow_dispatch:
   push: {branches: ["main"]}
+  workflow_dispatch:
+  
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      # See action.yml for all options
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+        
+      - name: Update Metrics
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
+          # Github Settings
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_message: "Update Metrics (${{ steps.date.outputs.date }})"
           
           # Options
           base: header, repositories, metadata
@@ -21,11 +26,11 @@ jobs:
           
           # Most used languages.
           plugin_languages: yes
-        # plugin_languages_ignored: html, css                          
-        # plugin_languages_colors: "0:orange, javascript:#ff0000"    
-        # plugin_repositories_ignored: my_random_repo
           plugin_languages_details: bytes-size, percentage             
-          plugin_languages_threshold: 0%                               
+          plugin_languages_threshold: 0%     
+        # plugin_languages_colors: "0:orange, javascript:#ff0000"  
+        # plugin_languages_ignored: html, css                            
+        # plugin_repositories_ignored: my_random_repo
           
           # Lines of code changed
           plugin_lines: yes
