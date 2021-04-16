@@ -13,7 +13,6 @@ jobs:
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
         
-      - name: Update Metrics
       - uses: lowlighter/metrics@latest
         with:
           # Github Settings
