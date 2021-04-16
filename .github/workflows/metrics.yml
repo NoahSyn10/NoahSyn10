@@ -26,7 +26,6 @@ jobs:
         # plugin_repositories_ignored: my_random_repo
           plugin_languages_details: bytes-size, percentage             
           plugin_languages_threshold: 0%                               
-          plugin_languages_limit: 8  
           
           # Lines of code changed
           plugin_lines: yes
