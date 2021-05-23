@@ -16,7 +16,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           # Github Settings
-          token: ${{ GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           committer_message: "Update Metrics (${{ steps.date.outputs.date }})"
           
           # Options
