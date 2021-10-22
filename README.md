@@ -9,8 +9,10 @@
 
 ## 🌱 I’m currently learning ...
 
+- C
 - Python
 - TypeScript
+- Java
 - Android Development
 
 <!--
